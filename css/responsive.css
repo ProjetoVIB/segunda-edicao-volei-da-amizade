@@ -1250,4 +1250,8 @@
     .home__page__header>h1 {
         font-size: 25px;
     }
+
+    .score{
+        width: 600px;
+    }
 }
