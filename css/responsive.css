@@ -1104,6 +1104,13 @@
         width: 320px;
     }
 
+    .first-game,
+    .second-game,
+    .semi-final,
+    .grand-final {
+        padding: 0;
+    }
+
     .home__page__header>h1 {
         font-size: 25px;
     }
@@ -1133,6 +1140,14 @@
         width: 375px;
     }
 
+    .first-game,
+    .second-game,
+    .semi-final,
+    .grand-final {
+        width: 375px;
+        padding: 0;
+    }
+
     .home__page__header>h1 {
         font-size: 25px;
     }
@@ -1159,6 +1174,14 @@
     .score,
     .score__points {
         width: 425px;
+    }
+
+    .first-game,
+    .second-game,
+    .semi-final,
+    .grand-final {
+        width: 425px;
+        padding: 0;
     }
 
     .home__page__header>h1 {
@@ -1192,8 +1215,8 @@
     .yeshua-background,
     .kadosh-background,
     .yokohama-background,
-    .team__info{
-        width: 200px;
+    .team__info {
+        width: 191px;
     }
 
     .menu {
@@ -1204,4 +1227,3 @@
         font-size: 25px;
     }
 }
-

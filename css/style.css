@@ -536,7 +536,7 @@ main {
     width: 100%;
     justify-content: center;
     flex-direction: column;
-    gap: 20px;
+    gap: 50px;
 }
 
 .games__main>div {
@@ -546,7 +546,7 @@ main {
 
 .games__main__menu {
     flex-direction: column;
-    gap: 15px;
+    gap: 40px;
     width: 100%;
 
 }
@@ -575,8 +575,8 @@ main {
 .second-game,
 .semi-final,
 .grand-final {
+    width: 191px;
     height: 100%;
-    padding: 0 15px;
     background-color: #2d1c6b;
 }
 
