@@ -1140,6 +1140,14 @@
         width: 375px;
     }
 
+    .team__info__header{
+        gap: 100px;
+    }
+
+    .team__rows{
+        gap: 85px;
+    }
+
     .first-game,
     .second-game,
     .semi-final,
@@ -1174,6 +1182,14 @@
     .score,
     .score__points {
         width: 425px;
+    }
+
+    .team__info__header{
+        gap: 120px;
+    }
+
+    .team__rows{
+        gap: 105px;
     }
 
     .first-game,
@@ -1217,6 +1233,14 @@
     .yokohama-background,
     .team__info {
         width: 191px;
+    }
+
+    .team__info__header{
+        gap: 40px;
+    }
+
+    .team__rows{
+        gap: 30px;
     }
 
     .menu {

@@ -100,6 +100,7 @@ main {
 /*Divs Gerais*/
 
 .container {
+    gap: 0 97px;
     flex-wrap: wrap;
     position: relative;
     width: 650px;
@@ -333,7 +334,7 @@ main {
 }
 
 .team__rows {
-    gap: 40px;
+    gap: 30px;
     font-size: 12px;
     font-weight: lighter;
 }
