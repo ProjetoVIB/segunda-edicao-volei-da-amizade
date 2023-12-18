@@ -1,0 +1,1200 @@
+@media (max-width: 650px) {
+
+    html,
+    body {
+        background-color: rgb(18, 0, 58);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main {
+        padding-top: 5px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /*================Section do Perfil================*/
+
+    .menu {
+        background-color: var(--menu);
+        border-radius: 15px;
+        display: block;
+        margin: 0;
+        width: 350px;
+        height: 50px;
+        position: relative;
+    }
+
+    .menu__items>a {
+        color: white;
+    }
+
+    .menu__item__link {
+        height: 50px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .active {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 50px;
+        border-radius: 15px;
+        background-color: var(--perfil-background);
+    }
+
+    /*Divs Gerais*/
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 70px;
+        margin-top: 40px;
+        position: relative;
+        width: 350px;
+        height: fit-content;
+        justify-content: space-between;
+    }
+
+    /*================Container Principal================*/
+
+    .main__container {
+        background-color: var(--menu);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        border-radius: 15px;
+        width: 350px;
+        height: 710px;
+        justify-content: space-between;
+    }
+
+    /*================Card da Página Inicial================*/
+
+    .home__page {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 26px;
+    }
+
+    .home__page__header {
+        background-color: #6b1c1f;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+
+    .home__page__header>h1 {
+        font-size: 28px;
+    }
+
+    .home__page__text {
+        padding: 10px 0;
+        background-color: #2d1c6b;
+    }
+
+    .home__page__text>p {
+        font-size: 20px;
+        margin: 1px 20px;
+    }
+
+    .home__page__desc {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .home__page__desc:nth-child(3) {
+        padding: 10px;
+        background-color: #2d1c6b;
+    }
+
+    .home__page__desc:nth-child(4) {
+        padding: 10px 20px;
+    }
+
+    .home__page__desc:last-child {
+        font-size: 15px;
+        font-style: italic;
+        font-weight: 100;
+        padding: 10px 10px;
+        background-color: #6b1c1f;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+
+    .home__page__desc>p {
+        font-size: 16px;
+        margin: 0;
+    }
+
+    .adress {
+        color: #d13136;
+    }
+
+    .logo__banner {
+        margin-left: 15px;
+    }
+
+    .banner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner__img {
+        width: 640px;
+        height: 70px;
+    }
+
+    /*============Card Individuais do Times============*/
+
+    .card__team {
+        display: flex;
+        position: relative;
+        background-color: var(--menu);
+        border-radius: 15px;
+        width: 200px;
+        height: 162px;
+        z-index: 1;
+    }
+
+    /*============Background dos Times============*/
+
+    /*.corvos{
+        background-color: var(--corvos-background);
+    }
+    
+    .azus{
+        background-color: var(--azus-background);
+    }
+    
+    .aguias{
+        background-color: var(--aguias-background);
+    }
+    
+    .yeshua{
+        background-color: var(--yeshua-background);
+    }
+    
+    .kadosh{
+        color: black;
+        background-color: var(--kadosh-background);
+    }
+    
+    .yokohama{
+        background-color: var(--yokohama-background);
+    }
+    
+    */
+
+    .corvos-background,
+    .azus-background,
+    .aguias-background,
+    .yeshua-background,
+    .kadosh-background,
+    .yokohama-background {
+        border-radius: 15px;
+        width: 350px;
+        height: 170px;
+        margin-top: -200px;
+        z-index: -1;
+    }
+
+    .corvos-background {
+        background-color: var(--corvos-background);
+    }
+
+    .corvos-background>h1 {
+        color: white;
+    }
+
+    .azus-background {
+        background-color: var(--azus-background);
+    }
+
+    .azus-background>h1 {
+        color: black;
+    }
+
+    .aguias-background {
+        background-color: var(--aguias-background);
+    }
+
+    .aguias-background>h1 {
+        color: white;
+    }
+
+    .yeshua-background {
+        background-color: var(--yeshua-background);
+    }
+
+    .yeshua-background>h1 {
+        color: white;
+    }
+
+    .kadosh-background {
+        background-color: var(--kadosh-background);
+    }
+
+    .kadosh-background>h1 {
+        color: black;
+    }
+
+    .yokohama-background {
+        background-color: var(--yokohama-background);
+    }
+
+    .yokohama-background>h1 {
+        color: white;
+    }
+
+    /*============Card dos Times============*/
+
+    .card__team {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        line-height: 50px;
+    }
+
+    .team__name {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 20px;
+        color: var(--font-primaria);
+        font-size: 20px;
+        margin: 0px;
+        padding-top: 10px;
+    }
+
+    .team__info {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .team__info__header {
+        color: white;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .team__rows {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+    .team__info__header>h4 {
+        height: 20px;
+        font-weight: 500;
+    }
+
+    .team {
+        width: 70px;
+        margin: 10px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .team__member {
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .position {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+
+    .team__position {
+        height: 20px;
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .team__member__position {
+        color: white;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        text-align: right;
+        height: 23px;
+    }
+
+    .team__member__name {
+        color: white;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        text-align: left;
+        height: 23px;
+    }
+
+    .captain__img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /*============Card da Arbitragem============*/
+
+    .referee__container {
+        color: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        flex-direction: column;
+    }
+
+    .referee {
+        font-size: 14px;
+        height: 180px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+    }
+
+    .referee:first-of-type {
+        height: 80px;
+    }
+
+    .referee__container>h2,
+    .marking>h2 {
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .marking {
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .marking__items {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+        text-align: left;
+    }
+
+    .marking__alert {
+        background-color: #DA2244;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 15px 5px;
+    }
+
+    .marking__alert>p>em {
+        font-size: 12px;
+        height: 52px;
+        color: white;
+        font-weight: 100;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .alert__img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .referee__img {
+        width: 30px;
+    }
+
+    /*============Card Partidas============*/
+
+    .main__container__table {
+        background-color: var(--menu);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        border-radius: 15px;
+        width: 350px;
+        height: fit-content;
+        justify-content: space-between;
+    }
+
+    .main__container__table h1 {
+        background-color: #6b1c1f;
+        font-size: 16px;
+        color: white;
+        width: 100%;
+        height: 20px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main__container>p {
+        padding: 0 30px;
+    }
+
+    /*============Card do Menu Partidas============*/
+
+    .menu__games {
+        background-color: var(--menu);
+        border-radius: 15px;
+        display: block;
+        margin-right: 25px;
+        width: 649px;
+        height: 50px;
+        position: relative;
+    }
+
+    .menu__items {
+        width: 350px;
+        font-size: 8px;
+        gap: 5px;
+    }
+
+    .menu__games .menu__items {
+        margin-top: -2px;
+    }
+
+    .menu__items>span {
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
+        width: 130px;
+        height: 50px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu__items>span:hover {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 50px;
+        border-radius: 15px;
+        background-color: var(--perfil-background);
+        cursor: pointer;
+    }
+
+    .menu__games__items>span {
+        color: white;
+    }
+
+    /*============Card do Formato de Jogo============*/
+
+    .games__main {
+        font-size: 13px;
+        color: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .games__main>div {
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .games__main__menu {
+        display: flex;
+        gap: 0px;
+        width: 100%;
+
+    }
+
+    .games__main__menu>div {
+        gap: 10px;
+        display: flex;
+        height: 100%;
+        text-align: center;
+    }
+
+    .main__menu__form {
+        border: none;
+        width: 350px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .first-game,
+    .second-game,
+    .semi-final,
+    .grand-final {
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 15px;
+    }
+
+    .first-game>h3,
+    .second-game>h3,
+    .semi-final>h3,
+    .grand-final>h3 {
+        margin: 0;
+    }
+
+    .first-game>p,
+    .second-game>p,
+    .semi-final>p,
+    .grand-final>p {
+        margin: 0;
+    }
+
+    .first-game,
+    .second-game,
+    .semi-final,
+    .grand-final {
+        width: 320px;
+        height: 80px;
+        padding: 0 15px;
+        background-color: #2d1c6b;
+    }
+
+    .main__menu__text {
+        font-size: 15px;
+        font-weight: 400;
+        font-style: italic;
+        margin: 10px 0;
+        padding: 8px 20px;
+        display: flex;
+        align-items: center;
+        grid-area: 30px;
+        color: white;
+        background-color: #2d1c6b;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .info__img {
+        width: 40px;
+        height: 40px;
+    }
+
+    /*============Card da Tabela============*/
+
+    .tabela {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 0 15px;
+    }
+
+    .tabela h1 {
+        height: 30px;
+    }
+
+    .tabela h1:first-of-type {
+        padding-top: 8px;
+    }
+
+    .tabela__points {
+        font-size: 14px;
+        font-weight: bolder;
+        font-style: italic;
+        text-transform: uppercase;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .tabela__points>li:first-of-type {
+        color: green;
+    }
+
+    .tabela__points>li:last-of-type {
+        color: red;
+    }
+
+    table {
+        color: white;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .tbody td.thead {
+        width: 60px;
+        height: 40px;
+        margin: 0;
+        padding: 0;
+    }
+
+    td.thead.gold {
+        background-color: rgb(124, 124, 0);
+    }
+
+    td.thead.silver {
+        background-color: gray;
+    }
+
+    td.thead.bronze {
+        background-color: brown;
+    }
+
+    td.thead {
+        width: 1263px;
+    }
+
+    td,
+    th {
+        width: 100px;
+        color: white;
+        background-color: rgba(53, 52, 52, 0.418);
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+
+    tbody th {
+        width: 400px;
+    }
+
+    .thead {
+        width: 350px;
+    }
+
+    /*============Card das Partidas============*/
+
+    .pjogo,
+    .sjogo,
+    .semifinal,
+    .final__card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .pjogo>h1 {
+        height: 40px;
+    }
+
+    .pjogo>p {
+        color: white;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .primeira-rodada,
+    .segunda-rodada,
+    .semifinal__card,
+    .final__card {
+        margin-top: 5px;
+        margin-bottom: 58px;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .jogos {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .score__header {
+        width: 100%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .score__header>h1 {
+        font-size: 14px;
+        width: 100%;
+        height: 20px;
+        background-color: #6b1c1f;
+    }
+
+    .semifinal__card {
+        margin-bottom: 88px;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 38px;
+    }
+
+    .semifinal__card>.jogos {
+        gap: 63.5px;
+    }
+
+    .semifinal__card {
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .final__card {
+        gap: 34.2px;
+    }
+
+    .final__card>.jogos {
+        gap: 36.896px;
+    }
+
+    .ranking__card {
+        gap: 50px;
+        flex-direction: column;
+    }
+
+    .ranking__position>h1 {
+        width: 350px;
+        height: 30px;
+    }
+
+    .ranking__position>p {
+        color: white;
+        background-color: #2d1c6b;
+        width: 350px;
+        height: 30px;
+    }
+
+    /*============Configs Gerais Placar============*/
+
+    .score {
+        font-size: 16px;
+        color: white;
+        width: 350px;
+        height: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .score__team {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 3px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-left: 10px solid #6b1c1f;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .score__team__2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-right: 10px solid #6b1c1f;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .score__points {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px 0;
+        width: 350px;
+        height: 20px;
+        background-color: #6b1c1f;
+        border: 1px solid white;
+    }
+
+    .score__logo {
+        width: 30px;
+    }
+
+    .score__img {
+        width: 450px;
+    }
+
+    /*============Configs Individuais do Placar dos Times============*/
+
+    .score__team__corvos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-left: 10px solid var(--corvos-background);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .score__team__corvos__2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-right: 10px solid var(--corvos-background);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .score__team__kadosh {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-right: 10px solid var(--kadosh-background);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .score__team__kadosh__2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-left: 10px solid var(--kadosh-background);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .score__team__aguias {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-left: 10px solid var(--aguias-background);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .score__team__aguias__2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-right: 10px solid var(--aguias-background);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .score__team__yeshua {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-right: 10px solid var(--yeshua-background);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .score__team__yeshua__2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-left: 10px solid var(--yeshua-background);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .score__team__azus {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-left: 10px solid var(--azus-background);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    .score__team__azus__2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-right: 10px solid var(--azus-background);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .score__team__yokohama {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-right: 10px solid var(--yokohama-background);
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .score__team__yokohama__2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2px;
+        width: 2000px;
+        height: 20px;
+        background-color: #2d1c6b;
+        border: 1px solid white;
+        border-left: 10px solid var(--yokohama-background);
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .menu,
+    .container,
+    .main__container,
+    .corvos-background,
+    .azus-background,
+    .aguias-background,
+    .yeshua-background,
+    .kadosh-background,
+    .yokohama-background,
+    .team__info,
+    .main__container__table,
+    .menu__items,
+    .main__menu__form,
+    .thead,
+    .ranking__position>h1,
+    .ranking__position>p,
+    .score,
+    .score__points {
+        width: 320px;
+    }
+
+    .home__page__header>h1 {
+        font-size: 25px;
+    }
+}
+
+
+@media (min-width: 375px) {
+
+    .menu,
+    .container,
+    .main__container,
+    .corvos-background,
+    .azus-background,
+    .aguias-background,
+    .yeshua-background,
+    .kadosh-background,
+    .yokohama-background,
+    .team__info,
+    .main__container__table,
+    .menu__items,
+    .main__menu__form,
+    .thead,
+    .ranking__position>h1,
+    .ranking__position>p,
+    .score,
+    .score__points {
+        width: 375px;
+    }
+
+    .home__page__header>h1 {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 425px) {
+
+    .menu,
+    .container,
+    .main__container,
+    .corvos-background,
+    .azus-background,
+    .aguias-background,
+    .yeshua-background,
+    .kadosh-background,
+    .yokohama-background,
+    .team__info,
+    .main__container__table,
+    .menu__items,
+    .main__menu__form,
+    .thead,
+    .ranking__position>h1,
+    .ranking__position>p,
+    .score,
+    .score__points {
+        width: 425px;
+    }
+
+    .home__page__header>h1 {
+        font-size: 25px;
+    }
+
+    .menu__items>span:last-of-type{
+        padding: 0 5px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .menu,
+    .container,
+    .main__container,
+    .corvos-background,
+    .azus-background,
+    .aguias-background,
+    .yeshua-background,
+    .kadosh-background,
+    .yokohama-background,
+    .team__info,
+    .main__container__table,
+    .menu__items,
+    .main__menu__form,
+    .thead,
+    .ranking__position>h1,
+    .ranking__position>p,
+    .score,
+    .score__points {
+        width: 768px;
+    }
+
+    .menu{
+        margin: 0;
+    }
+
+    .home__page__header>h1 {
+        font-size: 25px;
+    }
+}
